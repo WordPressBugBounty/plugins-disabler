@@ -1,0 +1,558 @@
+# Copyright (C) 2024 HyboPress Themes
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Disabler 4.0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/disabler\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-15T07:51:01+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: hbp-disabler\n"
+
+#. Plugin Name of the plugin
+#: disabler.php
+msgid "Disabler"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: disabler.php
+msgid "https://wordpress.org/plugins/disabler/"
+msgstr ""
+
+#. Description of the plugin
+#: disabler.php
+msgid "Why install a million plugins to disable features you don't want when you can use just ONE plugin?"
+msgstr ""
+
+#. Author of the plugin
+#: disabler.php
+msgid "HyboPress Themes"
+msgstr ""
+
+#: config/admin/settings/sections/backend/data.php:5
+msgid "Backend"
+msgstr ""
+
+#: config/admin/settings/sections/backend/fields.php:6
+msgid "Disable self pings"
+msgstr ""
+
+#: config/admin/settings/sections/backend/fields.php:10
+msgid "Prevents trackbacks/pings from your own domain."
+msgstr ""
+
+#: config/admin/settings/sections/backend/fields.php:23
+msgid "Additional urls"
+msgstr ""
+
+#. Translators: %s Ping-back URL of website.
+#: config/admin/settings/sections/backend/fields.php:31
+msgid "By default, the \"No Self Pings\" setting will exclude pings for this site (%s) but you can provide additional URLs below. Separate multiple URLs with line breaks."
+msgstr ""
+
+#: config/admin/settings/sections/editor/data.php:5
+msgid "Editor"
+msgstr ""
+
+#: config/admin/settings/sections/editor/fields.php:6
+msgid "Disable Classic Theme Styles (experimental)"
+msgstr ""
+
+#. Translators: %s is a placeholder for a link to a commit on GitHub.
+#: config/admin/settings/sections/editor/fields.php:12
+msgid "Prevents enqueuing or inlining classic theme styles when theme.json is not present. See %s"
+msgstr ""
+
+#: config/admin/settings/sections/editor/fields.php:19
+msgid "Disable Texturization (Classic Editor)"
+msgstr ""
+
+#: config/admin/settings/sections/editor/fields.php:23
+msgid "Disables smart quotes (a.k.a. curly quotes), em dash, en dash, and ellipsis."
+msgstr ""
+
+#: config/admin/settings/sections/editor/fields.php:28
+msgid "Disable Capital P (Classic Editor)"
+msgstr ""
+
+#: config/admin/settings/sections/editor/fields.php:32
+msgid "Disables auto-correction of WordPress capitalization."
+msgstr ""
+
+#: config/admin/settings/sections/editor/fields.php:37
+msgid "Disable paragraphs (Classic Editor)"
+msgstr ""
+
+#: config/admin/settings/sections/editor/fields.php:41
+msgid "Prevents <p> tags from being automatically inserted in your posts."
+msgstr ""
+
+#: config/admin/settings/sections/editor/fields.php:51
+msgid "Disable Autosave"
+msgstr ""
+
+#: config/admin/settings/sections/editor/fields.php:59
+#: config/admin/settings/sections/performance/fields.php:99
+#: config/admin/settings/sections/updates/fields.php:13
+msgid "No"
+msgstr ""
+
+#: config/admin/settings/sections/editor/fields.php:60
+msgid "Yes"
+msgstr ""
+
+#: config/admin/settings/sections/editor/fields.php:74
+msgid "Autosave interval"
+msgstr ""
+
+#: config/admin/settings/sections/editor/fields.php:79
+msgid "Leave empty for default interval"
+msgstr ""
+
+#. Translators: %1$s will be replaced with a line break.
+#: config/admin/settings/sections/editor/fields.php:83
+msgid "The default is 60 seconds. We recommend not exceeding 1800 seconds (30 minutes)."
+msgstr ""
+
+#: config/admin/settings/sections/feeds/data.php:5
+msgid "Feeds"
+msgstr ""
+
+#. Translators: %1$s will be replaced with the opening paragraph tag, %2$s will be replaced with the closing paragraph tag.
+#: config/admin/settings/sections/feeds/data.php:8
+msgid "%1$sWordPress outputs your content in many different formats, across many different URLs (like RSS feeds of your posts and categories). It’s generally good practice to disable the formats you’re not actively using.%2$s"
+msgstr ""
+
+#: config/admin/settings/sections/feeds/fields.php:6
+msgid "Redirect feeds (if disabled)"
+msgstr ""
+
+#: config/admin/settings/sections/feeds/fields.php:18
+msgid "Disable global feed"
+msgstr ""
+
+#: config/admin/settings/sections/feeds/fields.php:27
+msgid "Disable global comment feeds"
+msgstr ""
+
+#: config/admin/settings/sections/feeds/fields.php:33
+msgid "Also disables post comment feeds."
+msgstr ""
+
+#: config/admin/settings/sections/feeds/fields.php:37
+msgid "Disable post comments feeds"
+msgstr ""
+
+#: config/admin/settings/sections/feeds/fields.php:46
+msgid "Disable post authors feeds"
+msgstr ""
+
+#: config/admin/settings/sections/feeds/fields.php:55
+msgid "Disable post type feeds"
+msgstr ""
+
+#: config/admin/settings/sections/feeds/fields.php:64
+msgid "Disable category feeds"
+msgstr ""
+
+#: config/admin/settings/sections/feeds/fields.php:73
+msgid "Disable tag feeds"
+msgstr ""
+
+#: config/admin/settings/sections/feeds/fields.php:82
+msgid "Disable custom taxonomy feeds"
+msgstr ""
+
+#: config/admin/settings/sections/feeds/fields.php:91
+msgid "Disable search results feeds"
+msgstr ""
+
+#: config/admin/settings/sections/feeds/fields.php:100
+msgid "Disable Atom / RDF feeds"
+msgstr ""
+
+#: config/admin/settings/sections/frontend/data.php:5
+msgid "Frontend"
+msgstr ""
+
+#: config/admin/settings/sections/frontend/fields.php:6
+msgid "Disable shortlinks"
+msgstr ""
+
+#. Translators: %s is replaced with the example shortlink URL.
+#: config/admin/settings/sections/frontend/fields.php:11
+msgid "Prevents links to WordPress' internal 'shortlink' URLs for your posts. For example, %1$s"
+msgstr ""
+
+#: config/admin/settings/sections/performance/data.php:5
+msgid "Performance"
+msgstr ""
+
+#: config/admin/settings/sections/performance/fields.php:6
+msgid "Disable Emojis"
+msgstr ""
+
+#: config/admin/settings/sections/performance/fields.php:14
+msgid "Disable Embeds"
+msgstr ""
+
+#: config/admin/settings/sections/performance/fields.php:19
+msgid "Prevents others from embedding content from your site and removes JavaScript requests related to WordPress embeds."
+msgstr ""
+
+#: config/admin/settings/sections/performance/fields.php:28
+msgid "Heartbeat"
+msgstr ""
+
+#. Translators: %1$s will be replaced with the opening paragraph tag, %2$s will be replaced with the closing paragraph tag.
+#: config/admin/settings/sections/performance/fields.php:36
+msgid "%1$s The WordPress Heartbeat API uses /wp-admin/admin-ajax.php to run AJAX calls from the web-browser. While this is great and all it can also cause high CPU usage and crazy amounts of PHP calls. For example, if you leave your dashboard open it will keep sending POST requests to this file on a regular interval, every 15 seconds. %2$s"
+msgstr ""
+
+#: config/admin/settings/sections/performance/fields.php:44
+msgid "Disable Heartbeat"
+msgstr ""
+
+#: config/admin/settings/sections/performance/fields.php:75
+msgid "Heartbeat frequency"
+msgstr ""
+
+#: config/admin/settings/sections/performance/fields.php:80
+msgid "Leave empty for default frequency"
+msgstr ""
+
+#. Translators: %1$s will be replaced with a line break, %2$s will be replaced with the opening <strong> tag, and %3$s will be replaced with the closing </strong> tag.
+#: config/admin/settings/sections/performance/fields.php:84
+msgid "We recommend you 60 seconds, default is 15 seconds. %1$s %2$s Note:%3$s When 'Everywhere' is set, Heartbeat frequency won't have any effect."
+msgstr ""
+
+#: config/admin/settings/sections/performance/fields.php:92
+msgid "Disable Widgets"
+msgstr ""
+
+#: config/admin/settings/sections/performance/fields.php:100
+#: config/admin/settings/sections/updates/fields.php:14
+msgid "All"
+msgstr ""
+
+#: config/admin/settings/sections/performance/fields.php:101
+msgid "Core (only)"
+msgstr ""
+
+#: config/admin/settings/sections/privacy/data.php:5
+msgid "Privacy"
+msgstr ""
+
+#. Translators: %1$s will be replaced with the opening paragraph tag, %2$s will be replaced with the closing paragraph tag.
+#: config/admin/settings/sections/privacy/data.php:8
+msgid "%1$s These settings help obfuscate information about your blog to the world (including WordPress.org). While they don't protect you from anything, they do make it a little harder for people to obtain information about you and your site. %2$s"
+msgstr ""
+
+#: config/admin/settings/sections/privacy/fields.php:6
+msgid "Disable WordPress generator tag"
+msgstr ""
+
+#: config/admin/settings/sections/privacy/fields.php:15
+msgid "Fake User Agent"
+msgstr ""
+
+#: config/admin/settings/sections/privacy/fields.php:19
+msgid "Prevents WordPress from sending your URL information when checking for updates."
+msgstr ""
+
+#: config/admin/settings/sections/restapi/data.php:5
+msgid "Rest API"
+msgstr ""
+
+#: config/admin/settings/sections/restapi/fields.php:6
+msgid "Disable REST API for visitors"
+msgstr ""
+
+#: config/admin/settings/sections/restapi/fields.php:14
+msgid "Disable REST API links"
+msgstr ""
+
+#: config/admin/settings/sections/restapi/fields.php:23
+msgid "Disable Rest API RSD link"
+msgstr ""
+
+#: config/admin/settings/sections/restapi/fields.php:32
+msgid "Disable REST API link in HTTP headers"
+msgstr ""
+
+#: config/admin/settings/sections/revisions/data.php:5
+msgid "Revisions"
+msgstr ""
+
+#. Translators: %1$s will be replaced with the opening paragraph tag, %2$s will be replaced with the closing paragraph tag.
+#: config/admin/settings/sections/revisions/data.php:8
+msgid "%1$s If a post type isn't listed, revisions are not enabled for that post type. %2$s"
+msgstr ""
+
+#: config/admin/settings/sections/revisions/fields.php:8
+msgid "Disable revisions"
+msgstr ""
+
+#. Translators: %1$s will be replaced with the opening <p> tag, %2$s will be replaced with closing tags and a line break.
+#: config/admin/settings/sections/revisions/fields.php:13
+msgid "%1$s To select multiple post types, hold ctrl key while selecting. Do not select a post type if you are unsure. %2$s"
+msgstr ""
+
+#. Translators: %1$s will be replaced with the opening paragraph tag, %2$s will be replaced with the closing paragraph tag.
+#: config/admin/settings/sections/revisions/fields.php:67
+msgid "%1$s Set the revisions limit for each selected post type. Leave the field empty for default behavior. %2$s"
+msgstr ""
+
+#: config/admin/settings/sections/tracking/data.php:5
+msgid "Usage Tracking"
+msgstr ""
+
+#. Translators: %1$s will be replaced with the opening paragraph tag, %2$s will be replaced with the closing paragraph tag.
+#: config/admin/settings/sections/tracking/data.php:8
+msgid "%1$s This setting enables anonymous usage data collection for the plugin, including WordPress information, installed plugins/themes, and server details. %2$s"
+msgstr ""
+
+#: config/admin/settings/sections/tracking/fields.php:6
+msgid "Allow usage tracking"
+msgstr ""
+
+#: config/admin/settings/sections/tracking/fields.php:10
+msgid "It will allows us to collect data about our plugin usage."
+msgstr ""
+
+#: config/admin/settings/sections/updates/data.php:5
+msgid "Updates"
+msgstr ""
+
+#: config/admin/settings/sections/updates/fields.php:6
+msgid "Disable Updates"
+msgstr ""
+
+#: config/admin/settings/sections/updates/fields.php:15
+msgid "Selective"
+msgstr ""
+
+#: config/admin/settings/sections/updates/fields.php:52
+msgid "Plugin Updates"
+msgstr ""
+
+#: config/admin/settings/sections/updates/fields.php:59
+#: config/admin/settings/sections/updates/fields.php:74
+msgid "Manual"
+msgstr ""
+
+#: config/admin/settings/sections/updates/fields.php:60
+#: config/admin/settings/sections/updates/fields.php:75
+#: config/admin/settings/sections/updates/fields.php:90
+msgid "Auto"
+msgstr ""
+
+#: config/admin/settings/sections/updates/fields.php:61
+#: config/admin/settings/sections/updates/fields.php:76
+#: config/admin/settings/sections/updates/fields.php:91
+#: config/admin/settings/sections/updates/fields.php:123
+msgid "Disable"
+msgstr ""
+
+#: config/admin/settings/sections/updates/fields.php:67
+msgid "Theme Updates"
+msgstr ""
+
+#: config/admin/settings/sections/updates/fields.php:82
+msgid "Auto and Async Translations Updates"
+msgstr ""
+
+#: config/admin/settings/sections/updates/fields.php:89
+#: config/admin/settings/sections/updates/fields.php:121
+msgid "Default"
+msgstr ""
+
+#: config/admin/settings/sections/updates/fields.php:97
+msgid "WordPress Core Updates"
+msgstr ""
+
+#: config/admin/settings/sections/updates/fields.php:104
+msgid "Disable updates"
+msgstr ""
+
+#: config/admin/settings/sections/updates/fields.php:105
+msgid "Disable auto updates"
+msgstr ""
+
+#: config/admin/settings/sections/updates/fields.php:106
+msgid "Allow minor auto updates"
+msgstr ""
+
+#: config/admin/settings/sections/updates/fields.php:107
+msgid "Allow major auto updates"
+msgstr ""
+
+#: config/admin/settings/sections/updates/fields.php:108
+msgid "Allow development auto updates"
+msgstr ""
+
+#: config/admin/settings/sections/updates/fields.php:114
+msgid "Enable updates for VCS Installations"
+msgstr ""
+
+#: config/admin/settings/sections/updates/fields.php:122
+msgid "Enable"
+msgstr ""
+
+#: config/admin/settings/sections/updates/fields.php:125
+msgid "Enable Automatic Updates even if a VCS folder (.git, .hg, .svn) was found in the WordPress directory"
+msgstr ""
+
+#: config/admin/settings/sections/updates/fields.php:130
+msgid "Updates nags only for Admin"
+msgstr ""
+
+#: config/admin/settings/sections/updates/fields.php:135
+msgid "Hides WordPress core update available notice for users who don't have `update_core` capability access."
+msgstr ""
+
+#: config/admin/settings/sections/xmlrpc/data.php:5
+msgid "XML-RPC"
+msgstr ""
+
+#. Translators: %1$s will be replaced with the opening paragraph tag, %2$s will be replaced with the closing paragraph tag.
+#: config/admin/settings/sections/xmlrpc/data.php:8
+msgid "%1$s If you select %3$sCompletely%4$s, than you don't need to select any other settings below, leave them as is, otherwise you can make adjustments as per your needs. %2$s"
+msgstr ""
+
+#: config/admin/settings/sections/xmlrpc/fields.php:6
+msgid "Disable XML-RPC"
+msgstr ""
+
+#. Translators: %s XML-RPC custom whitelist IP's.
+#: config/admin/settings/sections/xmlrpc/fields.php:84
+msgid "Separate multiple IP's with line breaks."
+msgstr ""
+
+#. Translators: %s XML-RPC custom methods.
+#: config/admin/settings/sections/xmlrpc/fields.php:127
+msgid "Separate multiple methods with line breaks."
+msgstr ""
+
+#. Translators: %s XML-RPC custom headers.
+#: config/admin/settings/sections/xmlrpc/fields.php:163
+msgid "Separate multiple headers with line breaks."
+msgstr ""
+
+#: inc/Admin/Notices.php:152
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: inc/Admin/Notices.php:158
+msgid "You don&#8217;t have permission to do this."
+msgstr ""
+
+#: inc/Admin/OptionsPage.php:57
+#: inc/Admin/OptionsPage.php:58
+msgctxt "admin screen"
+msgid "Disabler"
+msgstr ""
+
+#: inc/Admin/OptionsPage.php:222
+#: inc/Admin/PluginsPage.php:26
+msgid "Settings"
+msgstr ""
+
+#: inc/Admin/OptionsPage.php:227
+msgid "Save Settings"
+msgstr ""
+
+#: inc/Admin/PluginsPage.php:25
+msgid "Visit the Disabler plugin page"
+msgstr ""
+
+#. Translators: %s: Minimum required version.
+#: inc/bootstrap-compat.php:18
+msgid "Disabler requires WordPress %s or later to function properly. Please upgrade WordPress before activating disabler."
+msgstr ""
+
+#. Translators: 1 is the required PHP version and 2 is the user's current version.
+#: inc/bootstrap-compat.php:23
+msgid "Disabler requires at least PHP version %1$s. You are running version %2$s. Please upgrade and try again."
+msgstr ""
+
+#. Translators: Placeholders for the homepage link.
+#: inc/Optimize/Feeds.php:134
+msgid "No feed available, please visit our %1$shomepage%2$s!"
+msgstr ""
+
+#: inc/Optimize/RestAPI.php:74
+msgid "REST API restricted to authenticated users."
+msgstr ""
+
+#. Translators: %1$s XML RPC method name.
+#: inc/Optimize/XMLRPC.php:100
+msgid "XML-RPC's method %1$s is not supported"
+msgstr ""
+
+#: inc/Tools/Update/PluginInstall.php:187
+msgid "You do not have permission to manage disabler's DB updates."
+msgstr ""
+
+#: inc/Tools/Update/PluginInstall.php:393
+msgid "Monthly"
+msgstr ""
+
+#: inc/Tools/Update/PluginInstall.php:398
+msgid "Every 15 Days"
+msgstr ""
+
+#: public/views/admin/html-notice-custom.php:21
+#: public/views/admin/html-notice-updated.php:12
+msgid "Dismiss"
+msgstr ""
+
+#: public/views/admin/html-notice-update.php:20
+msgid "Disabler database update required"
+msgstr ""
+
+#: public/views/admin/html-notice-update.php:24
+msgid "Disabler has been updated! To keep things running smoothly, we have to update your database to the newest version."
+msgstr ""
+
+#: public/views/admin/html-notice-update.php:26
+msgid "The database update process runs in the background and may take a little while, so please be patient."
+msgstr ""
+
+#: public/views/admin/html-notice-update.php:31
+msgid "Update Disabler Database"
+msgstr ""
+
+#: public/views/admin/html-notice-update.php:37
+msgid "It is strongly recommended that you backup your database before proceeding. Are you sure you wish to run the updater now?"
+msgstr ""
+
+#: public/views/admin/html-notice-updated.php:14
+msgid "Disabler database update complete. Thank you for updating to the latest version!"
+msgstr ""
+
+#: public/views/admin/html-notice-updating.php:23
+msgid "You can manually run queued updates here."
+msgstr ""
+
+#: public/views/admin/html-notice-updating.php:24
+msgid "View progress &rarr;"
+msgstr ""
+
+#: public/views/admin/html-notice-updating.php:30
+msgid "Disabler database update"
+msgstr ""
+
+#: public/views/admin/html-notice-updating.php:31
+msgid "Disabler is updating the database in the background. The database update process may take a little while, so please be patient."
+msgstr ""
+
+#: public/views/admin/html-notice-updating.php:34
+msgid "Note: WP CRON has been disabled on your install which may prevent this update from completing."
+msgstr ""
